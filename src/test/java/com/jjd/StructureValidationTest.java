@@ -14,6 +14,7 @@ import java.lang.reflect.Modifier;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * 通过反射机制验证类的继承、实现和方法重写情况。
@@ -38,6 +39,42 @@ public class StructureValidationTest {
             Class.forName("com.jjd.adapters.AdapterCircle");
         } catch (ClassNotFoundException e) {
             assertTrue(false, "指定类不存在：" + e.getMessage());
+        }
+    }
+
+    /**
+     * 检查`Triangle`、`Rectangle`和`Circle`类是否具有预期的属性。
+     */
+    @Test
+    public void testFields() {
+        // 检查Triangle的属性
+        try {
+            Triangle.class.getDeclaredField("v1");
+            Triangle.class.getDeclaredField("v2");
+            Triangle.class.getDeclaredField("v3");
+            System.out.println("Triangle有v1、v2、v3属性");
+        } catch (NoSuchFieldException e) {
+            System.out.println("Triangle没有v1、v2、v3属性");
+        }
+
+        // 检查Rectangle的属性
+        try {
+            Rectangel.class.getDeclaredField("v1");
+            Rectangel.class.getDeclaredField("v2");
+            Rectangel.class.getDeclaredField("v3");
+            Rectangel.class.getDeclaredField("v4");
+            System.out.println("Rectangle有v1、v2、v3、v4属性");
+        } catch (NoSuchFieldException e) {
+            System.out.println("Rectangle没有v1、v2、v3、v4属性");
+        }
+
+        // 检查Circle的属性
+        try {
+            Circle.class.getDeclaredField("center");
+            Circle.class.getDeclaredField("radius");
+            System.out.println("Circle有center和radius属性");
+        } catch (NoSuchFieldException e) {
+            System.out.println("Circle没有center和radius属性");
         }
     }
 
@@ -97,6 +134,33 @@ public class StructureValidationTest {
         checkConstructor(Rectangel.class, Vertex.class, Vertex.class, Vertex.class, Vertex.class);
         checkConstructor(Triangle.class, Vertex.class, Vertex.class, Vertex.class);
         checkConstructor(AdapterCircle.class, Vertex.class, float.class);
+    }
+
+    /**
+     * 检查`Polygon`接口及其实现类（`Triangle`、`Rectangle`、`AdapterCircle`）中的`canForm`方法的返回类型是否为`boolean`。
+     */
+    @Test
+    public void testCanFormMethod() {
+        try {
+            Method canFormMethod = Polygon.class.getMethod("canForm");
+            assertEquals(boolean.class, canFormMethod.getReturnType());
+            System.out.println("Polygon类中的canForm方法返回类型为boolean");
+
+            Method triangleCanFormMethod = Triangle.class.getMethod("canForm");
+            assertEquals(boolean.class, triangleCanFormMethod.getReturnType());
+            System.out.println("Triangle类中的canForm方法返回类型为boolean");
+
+            Method rectangleCanFormMethod = Rectangel.class.getMethod("canForm");
+            assertEquals(boolean.class, rectangleCanFormMethod.getReturnType());
+
+            System.out.println("Rectangle类中的canForm方法返回类型为boolean");
+
+            Method adapterCircleCanFormMethod = AdapterCircle.class.getMethod("canForm");
+            assertEquals(boolean.class, adapterCircleCanFormMethod.getReturnType());
+            System.out.println("AdapterCircle类中的canForm方法返回类型为boolean");
+        } catch (NoSuchMethodException e) {
+            System.out.println("某个类中没有找到canForm方法: " + e.getMessage());
+        }
     }
 
     /**
