@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f5232bc-af42-41cd-8594-49a220de4c84" name="更改" comment="第一次修改">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jjd/ShapeCalculationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jjd/StructureValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/adapters/AdapterCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/adapters/AdapterCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Rectangel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Rectangel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Triangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f5232bc-af42-41cd-8594-49a220de4c84" name="更改" comment="大体修改完毕" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731566230520</updated>
-      <workItem from="1731566231580" duration="6992000" />
+      <workItem from="1731566231580" duration="7301000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改">
       <option name="closed" value="true" />
@@ -188,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731568682112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="大体修改完毕">
+      <option name="closed" value="true" />
+      <created>1731573264568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731573264568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次修改" />
+    <MESSAGE value="大体修改完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="大体修改完毕" />
   </component>
 </project>
