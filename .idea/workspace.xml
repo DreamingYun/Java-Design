@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f5232bc-af42-41cd-8594-49a220de4c84" name="更改" comment="第一次修改">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jjd/ShapeCalculationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jjd/StructureValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/adapters/AdapterCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/adapters/AdapterCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Rectangel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Rectangel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jjd/shapes/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +56,104 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "project.structure.last.edited": "全局库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.StructureValidationTest.testConstructorDefinition">
+    <configuration name="StructureValidationTest.testClassExistence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jjd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jjd" />
+      <option name="MAIN_CLASS_NAME" value="com.jjd.StructureValidationTest" />
+      <option name="METHOD_NAME" value="testClassExistence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructureValidationTest.testConstructorDefinition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jjd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jjd" />
+      <option name="MAIN_CLASS_NAME" value="com.jjd.StructureValidationTest" />
+      <option name="METHOD_NAME" value="testConstructorDefinition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructureValidationTest.testInheritanceAndComposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jjd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jjd" />
+      <option name="MAIN_CLASS_NAME" value="com.jjd.StructureValidationTest" />
+      <option name="METHOD_NAME" value="testInheritanceAndComposition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructureValidationTest.testMethodOverrideInPolygon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jjd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jjd" />
+      <option name="MAIN_CLASS_NAME" value="com.jjd.StructureValidationTest" />
+      <option name="METHOD_NAME" value="testMethodOverrideInPolygon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructureValidationTest.testPolygonInterfaceImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jjd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jjd" />
+      <option name="MAIN_CLASS_NAME" value="com.jjd.StructureValidationTest" />
+      <option name="METHOD_NAME" value="testPolygonInterfaceImplementation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StructureValidationTest.testConstructorDefinition" />
+        <item itemvalue="JUnit.StructureValidationTest.testMethodOverrideInPolygon" />
+        <item itemvalue="JUnit.StructureValidationTest.testInheritanceAndComposition" />
+        <item itemvalue="JUnit.StructureValidationTest.testPolygonInterfaceImplementation" />
+        <item itemvalue="JUnit.StructureValidationTest.testClassExistence" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -63,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731566230520</updated>
-      <workItem from="1731566231580" duration="2333000" />
+      <workItem from="1731566231580" duration="6992000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改">
       <option name="closed" value="true" />
@@ -81,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731568557393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一次修改">
+      <option name="closed" value="true" />
+      <created>1731568682112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731568682112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
